@@ -1,5 +1,5 @@
 # Tic_Tac_Toe
-In this project I have created a very popular game, Tic-Tac-Toe. It consists of making a sequence of three symbols in either a row, column or diagonal in a 3x3 board, using Ruby OOP pronciples.
+In this project I have created a very popular game, Tic-Tac-Toe. It consists of making a sequence of three symbols in either a row, column or diagonal in a 3x3 board, using Ruby OOP principles.
 
 ## Live Code
 [![Run on Repl.it](https://repl.it/badge/github/@lamiasristy/TicTacToe)](https://repl.it/@lamiasristy/TicTacToe)
