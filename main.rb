@@ -1,6 +1,10 @@
 require_relative './lib/player.rb'
 require_relative './lib/board_game.rb'
 
+def valid_sign?(input)
+  input.length == 1
+end
+
 puts 'Enter Name:'
 @name1 = gets.chomp
 puts 'Enter Sign:'
@@ -24,6 +28,6 @@ end
 player2 = Player.new(@name2, @sign2)
 puts "Game started by #{player1.name} and #{player2.name}"
 
-game = TicTacToe.new(player1, player2)
-game.display_board
-game.play
+# game = TicTacToe.new(player1, player2)
+# game.display_board
+# game.play

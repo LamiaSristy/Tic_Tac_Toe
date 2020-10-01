@@ -22,7 +22,7 @@ class BoardGame
     
     def valid_move?(input)
       input.between?(0, 8) && !position_taken?(input)
-    end  
+    end
 
     def turn
         if @turn_count.odd?  
