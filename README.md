@@ -1,6 +1,10 @@
 # Tic_Tac_Toe
 In this project I have created a very popular game, Tic-Tac-Toe. It consists of making a sequence of three symbols in either a row, column or diagonal in a 3x3 board, using Ruby OOP pronciples.
 
+## Live Code
+[![Run on Repl.it](https://repl.it/badge/github/acushlakoncept/Enumerable)](https://repl.it/@lamiasristy/TicTacToe)
+
+
 # How to play:
 1. Enter the first player's name.
 2. The firrst player enter the sign; This should only be one character.
