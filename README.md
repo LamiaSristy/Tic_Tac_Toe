@@ -12,6 +12,7 @@ In this project I have created a very popular game, Tic-Tac-Toe. It consists of 
 8. After that, the position will be validated and recorded. Afterwards, the second player will be selected to take a turn.
 9. The selected position can't be chosen twice;
 10. The game will take turns until a player wins or no more positions are available on the board, in this case it will be a draw!
+11. The Game will ask to start again or not to the user.
 
 
 ## Game-Instruction:
@@ -37,6 +38,7 @@ This is a tic-tac-toe game built with ruby and oop principles:
     4- display the board and ask for a move.
     5- validating the given move by checking that the coordinates are not already taken and that they are equal to or between 1-9. This process runs for both players.
     6- checks for the win conditions. If any player wins, it will display the player that won, else it will display "it's a draw".
+    7- After the result the game asks if the player want to start again by inputting Y/N. If its a Y then it will start the game again.
 
 
 ## Built With
