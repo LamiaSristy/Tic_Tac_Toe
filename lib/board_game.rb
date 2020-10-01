@@ -38,8 +38,6 @@ class BoardGame
       puts 'invalid position or input'
       turn
     end
-    puts '#################'
-    display_board
   end
 
   def play
@@ -47,6 +45,8 @@ class BoardGame
     until over?
       @turn_count += 1
       turn
+      puts '#################'
+      display_board
     end
     print 'Game Over '
 
