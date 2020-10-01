@@ -28,11 +28,7 @@ class BoardGame
   end
 
   def turn
-    if @turn_count.odd?
-      @current_player = @player1
-    else
-      @current_player = @player2
-    end
+    @current_player = @turn_count.odd? ? @player1 : @player2
     print "#{@current_player.name}, Please choose a number between 1-9: "
     position = gets.chomp.to_i
     position -= 1
@@ -61,7 +57,7 @@ class BoardGame
     end
     puts 'Do you want to start again? press Y/N'
     val = gets.chomp
-    if %w[Y y].include?(val) #val == 'Y' || val == 'y'
+    if %w[Y y].include?(val)
       reset_board
       play
     else
@@ -70,7 +66,7 @@ class BoardGame
   end
 end
 
-class TicTacToe < BoardGame  # start: game logic
+class TicTacToe < BoardGame
   WIN_COMBINATIONS = [
     [0, 1, 2],
     [3, 4, 5],
@@ -80,7 +76,7 @@ class TicTacToe < BoardGame  # start: game logic
     [2, 5, 8],
     [6, 4, 2],
     [0, 4, 8]
-  ]
+  ].freeze
 
   def draw?
     !won? && full?
@@ -101,6 +97,4 @@ class TicTacToe < BoardGame  # start: game logic
   def over?
     won? || full? || draw?
   end
-
-  # end: game logic
 end
