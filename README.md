@@ -2,7 +2,7 @@
 In this project I have created a very popular game, Tic-Tac-Toe. It consists of making a sequence of three symbols in either a row, column or diagonal in a 3x3 board, using Ruby OOP pronciples.
 
 ## Live Code
-[![Run on Repl.it](https://repl.it/badge/github/acushlakoncept/Enumerable)](https://repl.it/@lamiasristy/TicTacToe)
+[![Run on Repl.it](https://repl.it/badge/github/@lamiasristy/TicTacToe)](https://repl.it/@lamiasristy/TicTacToe)
 
 
 # How to play:
