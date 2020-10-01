@@ -10,8 +10,8 @@ In this project I have created a very popular game, Tic-Tac-Toe. It consists of 
 6. To win this game one player must make a sequence of three signs either on rows, columns or diagonals.
 7. The selected player gets to choose the position where they want to place their sign, by inputting a position. The input should be equal to or in between 1 to 9 integer values.
 8. After that, the position will be validated and recorded. Afterwards, the second player will be selected to take a turn.
-9. The selected position can't be chosen twice;
-10. The game will take turns until a player wins or no more positions are available on the board, in this case it will be a draw!
+9. The selected position can't be chosen twice.
+10. The game will take turns until a player wins or no more positions are available on the board, in this case it will be a draw.
 11. The Game will ask to start again or not to the user.
 
 
@@ -19,11 +19,11 @@ In this project I have created a very popular game, Tic-Tac-Toe. It consists of 
 
 This is a tic-tac-toe game built with ruby and oop principles:
 
-    In this project, all the logic and manipulation is put in the files inside lib folder except for these that require consistant outputs.
+    In this project, all the logic and manipulation are in the files inside lib folder.
 
     ---------------------------------------------------------------------------------------------------------------------
 
-    In this game there are 3 main files 
+    In this game project there are 3 main files 
 
     1- main.rb: This file is responsible for getting validated inputs from the user, outputting messages, and calling all the required methods.
     2- player.rb: This file is responsible for storing player variables such as (name, sign).
